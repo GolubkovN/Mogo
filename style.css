@@ -20,7 +20,7 @@ a {
 .hero {
     width: 100%;
     min-height: 100vh;
-    background: url(./images/hero-bg.jpg) center center / cover no-repeat;
+    background: url('images/hero-bg.jpg') center center / cover no-repeat;
 }
 .container {
     width: 100%;
@@ -160,7 +160,7 @@ section:nth-child(4) {
     padding-bottom: 0;
 }
 .section--devices {
-    background: url('/images/bg-section-device.jpg') center center / cover no-repeat;
+    background: url('images/bg-section-device.jpg') center center / cover no-repeat;
     padding-bottom: 0;
 }
 .section__header {
