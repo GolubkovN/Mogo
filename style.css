@@ -550,8 +550,8 @@ section:last-child {
 }
 /*section--clients*/
 .section--clients {
-    background: url('images/clients/clients-bg.jpg') center center no-repeat;
-    -webkit-background-size: cover;
+    background: url('images/clients/clients-bg.jpg') center center / cover no-repeat;
+
 }
 .clients {
     display: flex;
@@ -668,8 +668,7 @@ section:last-child {
 }
 /*map*/
 .section--map {
-    background: url('images/map.jpg') center center no-repeat;
-    -webkit-background-size: cover;
+    background: url('images/map.jpg') center center/ cover no-repeat;
 }
 .map {
     text-align: center;
