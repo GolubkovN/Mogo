@@ -389,7 +389,7 @@ section:last-child {
     overflow: hidden;
 }
 .accordion__input:checked + .accordion__text {
-    max-height: 20rem;
+    max-height: 15rem;
 }
 .accordion__text {
     font-family: 'Roboto', sans-serif;
