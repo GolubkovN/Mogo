@@ -119,6 +119,22 @@
     .wedo__item {
          width: 100%;
     }
+    /*reviews*/
+    .reviews {
+        padding: 60px 18px;
+    }
+    .reviews__item {
+        padding-left: 0;
+    }
+    .reviews__photo {
+        top: -88px;
+        left: 119px;
+        width: 80px;
+        height: 80px;
+    }
+    .reviews__text {
+        font-size: 14px;
+    }
 }
 
 
