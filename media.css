@@ -1,0 +1,184 @@
+@media (max-width: 1230px) {
+    /*INTRO*/
+    .intro__suptitle {
+        font-size: 53px;
+    }
+    .intro__title {
+        font-size: 120px;
+    }
+    /*reviews*/
+    .reviews__text {
+        font-size: 20px;
+    }
+    .revews__author {
+        font-size: 20px;
+    }
+}
+
+
+
+@media (max-width: 990px) {
+    /*INTRO*/
+    .intro__suptitle {
+        font-size: 33px;
+    }
+    .intro__title {
+        font-size: 80px;
+    }
+    /*statistics*/
+    .stat {
+        justify-content: center;
+    }
+    .stat__item {
+        flex: none;
+        width: 33%;
+        border: none;
+        padding: 30px 25px;
+    }
+    .stat__item:last-child {
+        border: none;
+    }
+    .stat__numeral {
+        font-size: 72px;
+    }
+    /*services*/
+    .services__item {
+        width: 50%;
+        margin-bottom: 25px;
+    }
+    .services__item--border {
+        border: none;
+        padding-bottom: 0;
+    }
+     /*reviews*/
+     .reviews__photo {
+        height: 150px;
+        width: 150px;
+     }
+   
+   
+    
+}
+
+
+
+@media (max-width: 770px) {
+    /*nav*/
+   .nav {
+       display: none;
+   }
+   /*slider*/
+   .slider {
+       text-align: center;
+   }
+   .slider__text {
+       display: none;
+   }
+   .slider__item--active::before {
+       width: 50%;
+   }
+   /*section*/
+   .section {
+    padding: 40px 0;
+   }
+   .section--devices {
+       padding-bottom: 0;
+   }
+   .section__header {
+       margin-bottom: 50px;
+   }
+   /*card*/
+   .card {
+       justify-content: center;
+       flex-wrap: wrap;
+   }
+    .card__item {
+        width: 100%;
+        max-width: 380px;
+        margin-bottom: 30px;
+    }
+    .card__item:last-child {
+        margin-bottom: 0;
+    }
+     /*services*/
+     .services {
+         justify-content: center;
+     }
+     .services__item {
+        width: 100%;
+        max-width: 400px;
+        padding-left: 60px;
+    }
+    .services__icon {
+        left: 0;
+    }
+    /*we do*/
+    .wedo__img {
+        display: none;
+    }
+    .wedo__item {
+         width: 100%;
+    }
+}
+
+
+
+@media (max-width: 575px) {
+    /*INTRO*/
+    .intro__suptitle {
+        font-size: 23px;
+    }
+    .intro__title {
+        font-size: 40px;
+    }
+    /*section*/
+    .section__header {
+        margin: 0 auto 50px;
+    }
+    .section__suptitle {
+        font-size: 20px;
+    }
+    .section__title {
+        font-size: 24px;
+    }
+    .section__title::after {
+        width: 30%;
+        margin: 20px auto;
+    }
+   /*statistics*/
+   .stat {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    }
+    .stat__item {
+        width: 100%;
+        border-bottom: 1px solid #b5eae0;
+        padding: 30px 25px;
+    }
+    .stat__item:last-child {
+        border-bottom: none;
+    }
+    .stat__numeral {
+        font-size: 52px;
+    }
+    .stat__text {
+        font-size: 20px;
+    }
+    /*services*/
+    .services {
+        padding-top: 0;
+        padding-right: 0;
+    }
+    /*devices*/
+    .devices {
+        max-width: 320px;
+    }
+    .devices__item--iphone {
+        width: 127px;
+        bottom: -39px;
+        right: -18px;
+    }
+    /*we do*/
+    
+}
