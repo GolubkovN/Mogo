@@ -62,7 +62,10 @@
       /*logos*/
     .logos {
         flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
     }
+
      /*clients*/
      .clients {
         max-width: 600px;
@@ -193,6 +196,9 @@
         flex: none;
         width: 50%;
     }
+    .works__item {
+        margin: 0 auto;
+    }
     /*footer*/
     .footer__col {
         margin-bottom: 30px;
@@ -300,5 +306,11 @@
     }
     .subscribe {
         width: 100%;
+    }
+    /*copyright*/
+    .copyright {
+        border: none;
+        padding: 10px 0 5px 0;
+
     }
 }

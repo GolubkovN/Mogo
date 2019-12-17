@@ -524,6 +524,7 @@ section:last-child {
     opacity: .1;
 }
 .works__img {
+    display: block;
     max-width: 100%;
     height: auto;
     display: block;
@@ -682,6 +683,7 @@ section:last-child {
     background: url('images/map.jpg') center center/ cover no-repeat;
 }
 .map {
+    margin: 0 auto;
     text-align: center;
     position: relative;
 }
@@ -711,7 +713,7 @@ section:last-child {
 }
 /*footer*/
 .footer {
-    margin: 0 -15px;
+    width: 100%;
     padding-top: 65px;
     background: #f8f8f8;
 }
@@ -870,6 +872,7 @@ section:last-child {
 }
 /*copyright*/
 .copyright {
+    width: 100%;
     text-align: center;
     border-top: 1px solid #ccc;
     padding: 20px 0;
