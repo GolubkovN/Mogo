@@ -54,9 +54,55 @@
      .reviews__photo {
         height: 150px;
         width: 150px;
+        left: 80px;
      }
-   
-   
+     .reviews {
+        padding: 60px 50px;
+     }
+      /*logos*/
+    .logos {
+        flex-wrap: wrap;
+    }
+     /*clients*/
+     .clients {
+        max-width: 600px;
+        margin: 0 auto;
+     }
+     .clients__item {
+        width: 100%;
+        padding-right: 0;
+     }
+     /*blog*/
+     .blog {
+         flex-wrap: wrap;
+         width: 100%;
+         max-width: 380px;
+         margin: 0 auto;
+     }
+     .blog__item {
+         width: 100%;
+         margin-bottom: 30px;
+     }
+    .blog__item:last-child {
+        margin-bottom: 0;
+    }
+    .blog__descr::after {
+        margin-bottom: 0;
+    }
+    /*footer*/
+    .footer__col--first {
+        width: 100%;
+        text-align: center;
+    }
+    .footer__col--second {
+        width: 50%;
+    }
+    .footer__col--third {
+        width: 50%;
+    }
+    .subscribe {
+        margin: 0 auto;
+    }
     
 }
 
@@ -127,14 +173,39 @@
         padding-left: 0;
     }
     .reviews__photo {
-        top: -88px;
-        left: 119px;
+        position: static;
+        margin: 0 auto 20px;
         width: 80px;
         height: 80px;
     }
     .reviews__text {
         font-size: 14px;
     }
+    .reviews__author {
+        font-size: 20px;
+    }
+   
+    /*works*/
+    .works {
+        flex-wrap: wrap;
+    }
+    .works__col {
+        flex: none;
+        width: 50%;
+    }
+    /*footer*/
+    .footer__col {
+        margin-bottom: 30px;
+    }
+    .footer__col--second {
+        margin: 0 auto;
+    }
+
+    .footer__col--third {
+        width: 100%;
+        margin-bottom: 0;
+    }
+
 }
 
 
@@ -195,6 +266,39 @@
         bottom: -39px;
         right: -18px;
     }
-    /*we do*/
-    
+    /*reviews*/
+    .reviews {
+        padding: 0;
+    }
+    .reviews__btn {
+        top: 20%;
+    }
+    /*works*/
+    .works__col {
+        width: 100%;
+    }
+    /*clients*/
+    .clients__item {
+        padding-left: 0;
+        text-align: center;
+    }
+    .clients__item:last-child {
+        margin-bottom: 0;
+    }
+    .clients__img {
+        position: static;
+        margin-bottom: 10px;
+        margin: 0 auto;    
+    }
+    .clients__position::after {
+        margin: 15px auto;
+    }
+    /*footer*/
+    .footer__col--second {
+        width: 100%;
+        margin: 0;
+    }
+    .subscribe {
+        width: 100%;
+    }
 }

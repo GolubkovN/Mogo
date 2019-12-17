@@ -413,6 +413,7 @@ section:last-child {
     position: relative;
 }
 .reviews__photo {
+    display: block;
     width: 210px;
     height: 210px;
     position: absolute;
@@ -493,11 +494,15 @@ section:last-child {
 /*logos*/
 .logos {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 70px 20px;
-
+    margin: 0 -15px;
+}
+.logos__img {
+    padding: 0 15px;
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 /*works*/
 .works {
@@ -565,6 +570,7 @@ section:last-child {
     margin-bottom: 60px;
 }
 .clients__img {
+    display: block;
     position: absolute;
     top: 0;
     left: 45px;
@@ -597,11 +603,14 @@ section:last-child {
 .blog {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 .blog__item {
-    width: 31%;
+    width: 33.3333%;
     position: relative;
+    margin-right: 10px;
+}
+.blog__item:last-child {
+    margin-right: 0;
 }
 .blog__item:hover .blog__img {
     -moz-box-shadow:0 0 10px #95e1d3;
@@ -610,6 +619,8 @@ section:last-child {
 }
 .blog__img {
     display: block;
+    width: 100%;
+    height: auto;
     border-radius: 10px; 
     transition: box-shadow .2s linear; 
 }
@@ -645,7 +656,7 @@ section:last-child {
 .blog__descr::after {
     content: "";
     display: block;
-    width: 380px;
+    width: 100%;
     height: 1px;
     background: #ccc;
     margin: 20px 0;
@@ -655,7 +666,6 @@ section:last-child {
     font-style: italic;
     font-size: 15px;
     color: #999999;
-    vertical-align: middle;
 }
 .fa-eye {
     margin-right: 5px;
@@ -701,13 +711,18 @@ section:last-child {
 }
 /*footer*/
 .footer {
+    margin: 0 -15px;
     padding-top: 65px;
     background: #f8f8f8;
 }
 .footer__inner {
     padding-bottom: 65px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+}
+.footer__col {
+    padding: 0 15px;
 }
 .footer__col--first {
     width: 39%;
@@ -845,11 +860,13 @@ section:last-child {
     justify-content: space-between;
 }
 .instagram__item {
-    width: 35,333333%;
-    border-bottom: 4px solid #fff;
+    width: 33%;
+    border-bottom: 2px solid #fff;
 }
 .insta__img {
     display: block;
+    width: 100%;
+    height: auto;
 }
 /*copyright*/
 .copyright {
