@@ -120,18 +120,31 @@
     .hero {
         min-height: 90vh;
         }
-    /*INTRO*/
-    .intro {
-        margin-bottom: 200px;
-    }
+        .header {
+            padding-top: 10px;
+        }
     /*nav*/
    .nav {
        display: none;
+       position: absolute;
+       left: 0;
+       right: 0;
+       top: 100%;
+       background: #ea8a83;
+   }
+   .nav__link {
+       display: block;
+       margin: 0;
+       padding: 10px 20px;
    }
    /***.humburger*/
    .humburger {
-       display: inherit;
+       display: inline-block;
    }
+   /*INTRO*/
+   .intro {
+    margin-bottom: 200px;
+}
    /*slider*/
    .slider {
        text-align: center;
@@ -261,6 +274,9 @@
         font-size: 40px;
     }
     /*SLIDER*/
+    .slider__item {
+        opacity: 1;
+    }
     .slider__text {
         font-size: 11px;
     }

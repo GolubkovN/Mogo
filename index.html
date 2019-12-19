@@ -17,15 +17,15 @@
             <header class="header">
                 <a href="#" class="logo">MoGo</a>
                 <nav class="nav">
-                    <a href="#" class="nav__link nav__link--active">About</a>
-                    <a href="#" class="nav__link">Service</a>
-                    <a href="#" class="nav__link">Work</a>
-                    <a href="#" class="nav__link">Blog</a>
-                    <a href="#" class="nav__link">Contact</a>
+                    <a href="#" class="nav__link nav__link--active" data-scroll="about">About</a>
+                    <a href="#" class="nav__link" data-scroll="services">Service</a>
+                    <a href="#" class="nav__link" data-scroll="work">Work</a>
+                    <a href="#" class="nav__link" data-scroll="blog">Blog</a>
+                    <a href="#" class="nav__link" data-scroll="contact">Contact</a>
                 </nav>
-                <div class="humburger">
+                <button class="humburger" type="button">
                     <span class="humburger__item"></span>
-                </div>
+                </button>
             </header>
             <div class="intro">
                 <div class="intro__inner">
@@ -35,26 +35,26 @@
                 </div>
             </div>
             <div class="slider">
-                <a href="" class="slider__item slider__item--active">
+                <a href="#" class="slider__item slider__item--active">
                      <span class="slider__number">01</span>
                      <span class="slider__text">intro</span>
                 </a>
-                <a href="#work" class="slider__item">
+                <a href="#" class="slider__item">
                      <span class="slider__number">02</span>
                      <span class="slider__text">work</span>
                 </a>
-                <a href="#about" class="slider__item">
+                <a href="#" class="slider__item">
                      <span class="slider__number">03</span>
                      <span class="slider__text">about</span>
                 </a>
-                <a href="" class="slider__item">
+                <a href="#" class="slider__item">
                      <span class="slider__number">04</span>
                      <span class="slider__text">contacts</span>
                 </a>
             </div>
         </div>
     </section>
-    <section id="about" class="section">
+    <section class="section  about">
         <div class="container">
             <div class="section__header">
                 <h3 class="section__suptitle">
@@ -124,7 +124,7 @@
             </div>
         </div> <!--/.COntainer-->
     </div><!--/.statistics-->
-    <section class="section">
+    <section class="section services">
         <div class="container">
             <div class="section__header">
                 <h3 class="section__suptitle">
@@ -769,5 +769,7 @@
             </a>
         </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./js/app.js"></script>
 </body>
 </html>
