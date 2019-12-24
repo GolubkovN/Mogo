@@ -374,6 +374,10 @@
     .footer__social-content a {
         font-size: 18px;
     }
+    /*footer social text*/
+    .footer__social__text {
+        display: block;
+    }
     /*form*/
     .subscribe {
         width: 100%;

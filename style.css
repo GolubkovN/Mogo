@@ -39,7 +39,7 @@ ul > li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 .header.fixed {
     padding: 10px;
@@ -834,6 +834,9 @@ section:last-child {
     font-weight: 300;
     font-size: 15px;
     color: #999999; 
+}
+.footer__social__text {
+    display: inline-block;
 }
 .footer__social-content a {
     vertical-align: middle;
